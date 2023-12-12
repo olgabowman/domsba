@@ -1,0 +1,77 @@
+
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #fce4ec; 
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+h1 {
+    color: #ff69b4; /* Pink title color */
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ff69b4; 
+    border-radius: 5px;
+    outline: none;
+}
+
+button#addTaskBtn {
+    background-color: #ff69b4; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button#addTaskBtn:hover {
+    background-color: #ff1493; 
+}
+
+ul#taskList {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+ul#taskList li {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ff69b4;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+
+ul#taskList li:hover {
+    background-color: #ffebcd; 
+    box-shadow: 0 0 5px rgba(255, 105, 180, 0.5);
+}
