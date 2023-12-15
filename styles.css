@@ -70,7 +70,7 @@ ul#taskList li {
     background-color: #fff;
 }
 
-/* Cute styles for list items */
+
 ul#taskList li {
     margin: 5px  ;
     padding: 10px;
@@ -83,7 +83,7 @@ ul#taskList li {
     position: relative;
   }
   
-  /* Style for the task text */
+
   ul#taskList li .task-text {
     flex-grow: 1;
     margin-right: 10px;
@@ -92,13 +92,13 @@ ul#taskList li {
     font-weight: bold;
   }
   
-  /* Style for the completed task text */
+
   ul#taskList li.completed .task-text {
     text-decoration: line-through;
     color: #ccc;
   }
   
-  /* Style for the delete button */
+
   ul#taskList li .delete-task {
     background-color: #ff69b4;
     color: #fff;
@@ -109,7 +109,7 @@ ul#taskList li {
     font-weight: bold;
   }
   
-  /* Style for the delete button on hover */
+
   ul#taskList li .delete-task:hover {
     background-color: #ff1493;
   }

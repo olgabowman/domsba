@@ -1,5 +1,6 @@
+// JavaScript code for the To-Do List
 
-// Select elements from the HTML
+// Cache elements using getElementById and querySelector
 const taskInput = document.getElementById('taskInput');
 const addTaskBtn = document.getElementById('addTaskBtn');
 const taskList = document.getElementById('taskList');
@@ -41,3 +42,8 @@ function addTask(taskText) {
   // Append the new task to the task list
   taskList.appendChild(listItem);
 }
+
+// Use BOM properties/methods - Example: console.log
+console.log('This is a log message in the console.');
+
+// You can add more BOM properties/methods as needed.

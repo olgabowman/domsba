@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
     <link rel="stylesheet" href="styles.css"> 
+    <script src="script.js" defer></script> <!-- Moved the script tag to the head -->
+    <template id="taskTemplate">
+        <li>
+          <input type="checkbox" class="task-checkbox">
+          <span class="task-text"></span>
+          <button class="delete-task">Delete</button>
+        </li>
+    </template>
 </head>
 <body>
     <div class="container">
@@ -17,5 +25,5 @@
           
         </ul>
     </div>
-    <script src="script.js"></script> 
+</body>
 </html>
